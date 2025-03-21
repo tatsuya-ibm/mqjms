@@ -10,7 +10,7 @@
 
     <jmsConnectionFactory jndiName="jms/wmqCF" connectionManagerRef="ConMgr">
         <properties.wmqjmsra
-            channel="CLOUD.APP.SVRCONN"
+            channel="XXXXXXXX"
             hostName="XXXXXXXX"
             port="XXXXXXXX"
             userName="XXXXXXXX"
