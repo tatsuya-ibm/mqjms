@@ -2,6 +2,10 @@
 Please change all instances of XXXXXXXX in server.xml to match the MQ you are using.
 channel is a server connection channel such as 'CLOUD.APP.SVRCONN'.
 
+## Execute
+After Liberty enabled to your computer and download repogitory, execute the following command. 
+mvn liberty:dev -DserverStartTimeout=180
+
 ## Access:
 Please send a request to the following URLs from your browser.
 
